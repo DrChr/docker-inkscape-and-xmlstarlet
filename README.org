@@ -1,0 +1,16 @@
+WIP
+
+* Inkscape + XMLStarlet in a Docker
+
+Inkscape and XMLStarlet installed in a Docker image, primarily intended
+for use as CI backend to export Inkscape SVG drawings.
+
+* Usage
+
+A pre-built Docker image based on this repository should be available at 
+[[https://hub.docker.com/repository/docker/drchr/inkscape-and-xmlstarlet-for-exporting/][drchr/inkscape-and-xmlstarlet-for-exporting]].
+
+Example of launching Inkscape ... TBW
+#+BEGIN_SRC shell
+docker run -it drchr/inkscape-and-xmlstarlet-for-exporting TBW
+#+END_SRC
